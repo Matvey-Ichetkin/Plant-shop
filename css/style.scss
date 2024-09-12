@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background-image: url(../img/bg-main.png);
+    background-repeat: no-repeat;
+    background-size: 800px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    &__logo{
+        width: 36px;
+        height: 36px;
+    }
+
+    &__img{
+        width: 80px;
+        height: 20px;
+        display: flex;
+        justify-content: right;
+        margin-left: 1200px;
+    }
+
+        &_search{
+            margin-right: 40px;
+        }
+    
+
+    &__text{
+        width: 40px;
+        margin-right: 100px;
+        font-size: 14px;
+        font-weight: 400;
+        display: flex;
+        gap: 40px;
+    }
+
+        &_su{
+            color: #156963;
+            background-color: #fff;
+            padding: 8px 25px;
+            width: 100px;
+            align-items: center;
+            white-space: nowrap;
+        }
+
+        &_si{
+            color: #FFF;
+            background-color: #156963;
+            padding: 8px 25px;
+            width: 100px;
+            align-items: center;
+            white-space: nowrap;
+        }
+}
+
+.main{
+    &__text{
+        padding-left: 1000px
+    }
+
+        &_text-title{
+            margin-top: 100px;
+            color: #156963;
+            font-size: 100px;
+            font-weight: 400;
+            margin-bottom: 24px;
+        }
+
+        &_text-sub-title{
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+    &__arrows-img{
+        padding-left: 1000px;
+    }
+
+        &_left-arrow{
+            color: #333333;
+        }
+
+        &_right-arrow{
+            padding-left: 305px;
+            color: #333333;
+            transform: rotate(180);
+        }
+
+    &__sub-text{
+        padding-left: 950px;
+        display: flex;
+        gap: 40px;
+        font-size: 40px;
+    }
+
+        &_left-text{
+            color :#156963;
+            background-color: #fff;
+            padding: 25px 50px;
+        }
+
+        &_right-text{
+            color: #FFF;
+            background-color: #156963;
+            padding: 25px 50px;
+        }
+}
+
+.sub-main{
+    
+    &__boxes{
+        display: flex;
+        gap: 100px;
+        margin-left: 100px;
+        margin-top: 500px;
+        margin-bottom: 60px;
+    }
+
+        &__FD{
+            border-color: #000;
+        }
+            
+            &_FD-title{
+                color: #156963;
+                font-size: 30px;
+                font-weight: 500;
+            }
+
+        &__GCS{
+            border-color: #000;
+        }
+
+            &_GCS-title{
+                color:#156963;
+                font-size: 30px;
+                font-weight: 500;
+            }
+
+        &__OP{
+            border-color: #000;
+        }
+
+            &_OP-title{
+                color: #156963;
+                font-size: 30px;
+                font-weight: 500;
+            }
+
+        &__AP{
+            border-color: #000;
+        }
+
+            &_AP-title{
+                color: #156963;
+                font-size: 30px;
+                font-weight: 500;
+            }
+}
+
+.FP{
+    
+    &__Featured-Plants{
+        margin-left: 100px;
+    }
+
+    &__line{
+        margin-left: 100px;
+    }
+
+    &__boxes{
+        display: flex;
+        gap: 120px;
+        margin-left: 100px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+        &_title{
+            font-size: 25px;
+        }
+
+        &_price{
+            font-weight: 800;
+            margin-left: 50px;
+        }
+}
+
+.main2{
+    margin-left: 300px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 300px;
+    background-image: url(../img/main2_pic2.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: right;
+
+    &__texts{
+        font-size: 22px;
+    }
+
+        &_h1{
+            margin-bottom: 16px;
+        }
+
+        &_text{
+            margin-bottom: 74px;
+        }
+
+    &__picture{
+        width: 500px;
+    }
+}
+
+.sub-main2{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    background-color: #F3F4F6;
+    background-image: url(../img/sub-main2_pic.png);
+    background-repeat: no-repeat;
+    background-position-x: 1100px;
+    height: 350px;
+
+    &__text{
+        padding-top: 60px;
+        padding-left: 200px;
+        font-size: 30px;
+    }
+
+        &_VS-btn{
+            margin-top: 42px;
+            color: #FFF;
+            background-color: #156963;
+            padding: 10px 42px;
+            border: none;
+        }
+}
+
+.footer{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 60px;
+    gap: 250px;
+}
